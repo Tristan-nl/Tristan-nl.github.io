@@ -1,12 +1,25 @@
 .projects-btn {
     margin-left: 35px;
+    border-radius: 15px;
 }
 
 .pictures-btn {
     margin-bottom: 150px;
     margin-left: 200px;
+    border-radius: 15px;
 }
 
-.experience-btn{
+.experience-btn {
     margin-right: 220px;
+    border-radius: 15px;
+}
+
+.leave-btn {
+    border-radius: 15px;
+}
+
+.aboutme-btn{
+    margin-bottom: 100px;
+    margin-left: 350px;
+    border-radius: 15px;
 }
