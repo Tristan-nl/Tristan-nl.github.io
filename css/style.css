@@ -1,3 +1,5 @@
+
+/* Hallway page and buttons */
 .projects-btn {
     margin-left: 35px;
     border-radius: 15px;
@@ -19,7 +21,36 @@
 }
 
 .aboutme-btn{
-    margin-bottom: 100px;
-    margin-left: 350px;
+    margin-top: 750px;
+    margin-left: 790px;
     border-radius: 15px;
+}
+
+/* Prjocts page */
+.child {
+    border-radius: 5px;
+    width: 40%;
+    padding: 10%;
+    border: 2px solid black;
+    margin: .5em auto;
+  }
+
+  .projecten1:hover {
+    height: 250px;
+    width: 250px;
+}
+
+.projecten2:hover {
+    height: 250px;
+    width: 350px;
+}
+
+.projecten3:hover {
+    height: 250px;
+    width: 350px;
+}
+
+.projecten4:hover {
+    height: 250px;
+    width: 350px;
 }
