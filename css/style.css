@@ -25,7 +25,15 @@
     border-radius: 15px;
 }
 
-/* Prjocts page */
+/* Projects page */
+.project-text {
+    background-color: darkblue;
+}
+
+.project-text1 {
+    background-color: lightblue;
+}
+
 .child {
     border-radius: 5px;
     width: 40%;
@@ -107,5 +115,155 @@
 }
 
 .experience-text {
-    background-color: rgb(61, 48, 173);
+    background-color: darkblue;
 }
+
+/* MEDIA QUERIES */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* Home page*/
+   .card-img {
+    display: none;
+   }
+   
+   .home-page {
+    background-image: url("https://th.bing.com/th/id/R.fb728063ddea48f373a3767e124d2f92?rik=hSSmwAJ%2bvtf7Bw&pid=ImgRaw&r=0");
+    width: 575px;
+    height: 873px;
+   }
+
+    /* Hallway page and buttons */
+    .projects-btn {
+        margin-left: 35px;
+        border-radius: 15px;
+    }
+
+    .pictures-btn {
+        margin-bottom: 150px;
+        margin-left: 200px;
+        border-radius: 15px;
+    }
+
+    .experience-btn {
+        margin-right: 220px;
+        border-radius: 15px;
+    }
+
+    .leave-btn {
+        border-radius: 15px;
+    }
+
+    .aboutme-btn {
+        margin-top: 750px;
+        margin-left: 790px;
+        border-radius: 15px;
+    }
+
+    /* Projects page */
+    .project-text {
+        background-color: darkblue;
+    }
+
+    .project-text1 {
+        background-color: lightblue;
+    }
+
+    .child {
+        border-radius: 5px;
+        width: 40%;
+        padding: 10%;
+        border: 2px solid black;
+        margin: .5em auto;
+    }
+
+    .projecten1:hover {
+        height: 250px;
+        width: 250px;
+    }
+
+    .projecten2:hover {
+        height: 250px;
+        width: 350px;
+    }
+
+    .projecten3:hover {
+        height: 250px;
+        width: 350px;
+    }
+
+    .projecten4:hover {
+        height: 250px;
+        width: 350px;
+    }
+
+    /* ABout me page */
+    .child2 {
+        border-radius: 5px;
+        width: 40%;
+        padding: 10%;
+        border: 2px solid black;
+        margin: .5em auto;
+    }
+
+    .aboutme-text {
+        background-color: darkblue;
+    }
+
+    /* pictures page */
+
+    .Picture1 {
+        margin-left: 50px;
+        width: 200px;
+        margin: 20px;
+    }
+
+    .Picture2 {
+        margin-left: 50px;
+        width: 200px;
+        margin: 20px;
+    }
+
+    .Picture3 {
+        margin-left: 50px;
+        width: 200px;
+        margin: 20px;
+    }
+
+    .Picture4 {
+        margin-left: 50px;
+        width: 200px;
+        margin: 20px;
+    }
+
+    .Picture5 {
+        margin-left: 50px;
+        width: 200px;
+        margin: 20px;
+    }
+
+    /* Experience page */
+    .hospital-img {
+        width: 800px;
+        margin-left: 28vw;
+        margin-top: 5vw;
+    }
+
+    .experience-text {
+        background-color: darkblue;
+    }
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
