@@ -125,43 +125,66 @@
 @media (max-width: 575.98px) {
 
     /* Home page*/
-   .card-img {
-    display: none;
-   }
-   
-   .home-page{
-    background-image: url("https://cdn.webshopapp.com/shops/326245/files/407900803/660x660x2/austria-industriele-moderne-stompe-deur-zwart-staa.jpg"); /* The image used */
-    background-color: #cccccc; /* Used if the image is unavailable */
-    height: 990px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-  }
+    .card-img {
+        display: none;
+    }
+
+    .home-page {
+        background-image: url("https://cdn.webshopapp.com/shops/326245/files/407900803/660x660x2/austria-industriele-moderne-stompe-deur-zwart-staa.jpg");
+        /* The image used */
+        background-color: #cccccc;
+        /* Used if the image is unavailable */
+        height: 990px;
+        /* You must set a specified height */
+        background-position: center;
+        /* Center the image */
+        background-repeat: no-repeat;
+        /* Do not repeat the image */
+        background-size: cover;
+        /* Resize the background image to cover the entire container */
+    }
 
     /* Hallway page and buttons */
+    .hallway-body {
+        background-image: url("https://www.realsimple.com/thmb/wcB0-Knjm3DnlgYj8a-3Cpm_Lcc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/9-Go-Bold-with-Paint_M.-Lavender-Interiors_Credit_-Chris-Bradley-Photography-02bf94dc7d054ed79332bc85c41104ea.jpg");
+        /* The image used */
+        background-color: #cccccc;
+        /* Used if the image is unavailable */
+        height: 990px;
+        /* You must set a specified height */
+        background-position: center;
+        /* Center the image */
+        background-repeat: no-repeat;
+        /* Do not repeat the image */
+        background-size: cover;
+        /* Resize the background image to cover the entire container */
+    }
+
     .projects-btn {
+        margin-bottom: 10px;
         margin-left: 35px;
         border-radius: 15px;
     }
 
     .pictures-btn {
-        margin-bottom: 150px;
-        margin-left: 200px;
+        margin-bottom: 10px;
+        margin-left: 20px;
         border-radius: 15px;
     }
 
     .experience-btn {
-        margin-right: 220px;
+        margin-bottom: 10px;
+        margin-right: 20px;
         border-radius: 15px;
     }
 
     .leave-btn {
+        margin-bottom: 10px;
         border-radius: 15px;
     }
 
     .aboutme-btn {
-        margin-top: 750px;
-        margin-left: 790px;
+        margin-left: 410px;
         border-radius: 15px;
     }
 
