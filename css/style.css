@@ -129,11 +129,14 @@
     display: none;
    }
    
-   .home-page {
-    background-image: url("https://th.bing.com/th/id/R.fb728063ddea48f373a3767e124d2f92?rik=hSSmwAJ%2bvtf7Bw&pid=ImgRaw&r=0");
-    width: 575px;
-    height: 873px;
-   }
+   .home-page{
+    background-image: url("https://cdn.webshopapp.com/shops/326245/files/407900803/660x660x2/austria-industriele-moderne-stompe-deur-zwart-staa.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 990px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
 
     /* Hallway page and buttons */
     .projects-btn {
