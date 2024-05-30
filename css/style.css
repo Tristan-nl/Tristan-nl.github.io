@@ -67,6 +67,11 @@
     width: 350px;
 }
 
+.projecten5:hover {
+    height: 250px;
+    width: 350px;
+}
+
 /* About me page */
 .child2 {
     border-radius: 5px;
@@ -199,7 +204,7 @@
 
     /* Projects page */
     .projects-body {
-        background-image: url(https://www.bing.com/images/blob?bcid=qJHbZ116vRMHZg);
+        background-image: url(https://bouwgids.com/wp-content/uploads/2020/11/th2-820x535.jpg);
         /* The image used */
         background-color: #720000;
         /* Used if the image is unavailable */
@@ -246,6 +251,9 @@
         display: none;
     }
 
+    .projecten5 {
+        display: none;
+    }
     /* About me page */
     .about-me-body {
         background-image: url(https://i.pinimg.com/originals/4a/3b/b1/4a3bb15ad98ca218ee57db2b15dd7ec6.jpg);
