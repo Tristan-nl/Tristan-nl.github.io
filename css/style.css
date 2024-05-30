@@ -67,7 +67,7 @@
     width: 350px;
 }
 
-/* ABout me page */
+/* About me page */
 .child2 {
     border-radius: 5px;
     width: 40%;
@@ -78,6 +78,10 @@
 
 .aboutme-text {
     background-color: darkblue;
+}
+
+.leave-about-me {
+    border-radius: 15px;
 }
 
 /* pictures page */
